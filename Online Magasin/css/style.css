@@ -1,6 +1,7 @@
-/**
- * fil: css/style.css
- **/
+/* Her er et stylesheet*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
@@ -18,7 +19,7 @@
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-font-family: sans-serif;
+font-family: 'Raleway', sans-serif;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -33,11 +34,6 @@ font-family: sans-serif;
   color: black;
 }
 
-/* Style the active/current link*/
-.header a.active {
-  background-color: #51bc82;
-  color: white;
-}
 
 /* Float the link section to the right */
 .header-right {
@@ -67,20 +63,56 @@ font-family: sans-serif;
   background-color: white;
   padding: 10px;
   height: 200px; /* Should be removed. Only for demonstration */
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
 text-align: center; 
     height: 100%;
 }
-
-
 /* Style the footer */
 .footer {
   background-color: #51bc82;
   padding: 10px;
-font-family: sans-serif;
+font-family: 'Raleway', sans-serif;
     text-align: left;
-    background-size: 100% 100%;
-    text-align: right;
-    height: 100;
-    
+    background-size: 100%;
+
+
+}
+article {
+    color: black; 
+    font-family: 'Raleway', sans-serif; 
+    column-count: 2;
+    word-break: inherit; 
+    width: 75%;
+
+}
+.socialmedia {
+    width: 125px;
+    height: auto;
+    margin-left: 1200px;
+/*Styleshees for Nyhedsbrev*/
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=emne] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label {
+    font-family: 'Ralewat', sans-serif; 
+    color: black; 
 }
